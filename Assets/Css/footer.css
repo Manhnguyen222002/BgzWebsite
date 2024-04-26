@@ -1,0 +1,177 @@
+.footer{
+    margin-top: 64px;
+    background-color: var(--footer);
+    width:100%;
+    height:368px;
+    color:#FFFFFF;
+}
+.logo-footer{
+    width:100px;
+    height:100px;
+}
+.footer-top{
+    padding-top:48px;
+    display: flex;
+
+}
+
+.info-social{
+    margin-top: 32px;
+}
+
+.social-list{
+    margin-top: 16px;
+    width:120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block-1{
+    margin-left: 186px;
+    width: 312px;
+    height:216px;
+}
+
+.footer-info-title{
+    font-family: 'SVN-GilroyBold';
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-info1{
+    margin-top: 2px;
+    font-family: 'SVN-GilroyMedium';
+}
+.footer-info{
+    margin-top: 2px;
+    font-family: 'SVN-GilroyMedium';
+    padding-top: 8px;
+}
+.footer-info a{
+    color: #FFFFFF;
+    
+}
+.footer-info a:hover{
+    color:var(--primary);
+}
+.footer-block-2{
+    margin-left: 24px;
+    width: 200px;
+    height:fit-content;
+}
+
+.footer-bottom{
+    border-top: 1px solid white;
+    height: 56px;
+    width: 100%;
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment{
+    display: flex;
+    
+}
+
+.payment img{
+    margin-left:3px;
+}
+
+.payment-mobile{
+    display: none;
+}
+.mobile-block{
+    display: none;
+    
+}
+@media (max-width: 430px) {
+    
+    .container{
+        max-width:390px;
+        width:100%;
+        margin-inline: auto;
+    }
+
+    .footer{
+        margin-top: 32px;
+        background-color: var(--footer);
+        width:100%;
+        height:fit-content;
+        color:#FFFFFF;
+    }
+    .footer-top{
+        padding-top:28px;
+        flex-direction: column;
+        
+    }
+    .footer-top-left{
+        display: flex;
+        
+        align-items: center;
+        width:390px;
+    }
+    .info-social{
+        margin-left:108px;
+        margin-top:0;
+    }
+
+    .footer-top-right{
+        display: block;
+    }
+
+    .footer-block-1{
+        margin-top:32px;
+        margin-left:0px;
+        width: 390px;
+        height:208px;
+    }
+    .footer-block-22{
+        margin-top:40px;
+        margin-left: 0px;
+        width: 191px;
+        height:fit-content;
+        
+    
+    }
+
+    .footer-block-2{
+        display: none;
+    }
+    .mobile-block{
+        display: flex;
+        
+    }
+    .payment{
+        display: none;
+    }
+    .payment-mobile{
+        
+        display: flex;
+    }
+    .each-line{
+        padding-bottom:8px;
+        display: flex;
+        justify-content: space-between;
+        width:148px;
+        align-items: center;
+    }
+    .line-block{
+        margin-top:40px;
+    }
+    .footer-info-title{
+        font-family: 'SVN-GilroyBold';
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .logo-footer{
+        width:91px;
+        height:91px;
+    }
+
+    
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin tài khoản | BGZONE</title>
+    <link rel="icon" href="./Assets/Images/logo-13.png">
+    <link rel="stylesheet" href="./Assets/Css/reset.css">
+    <link rel="stylesheet" href="./Assets/Css/base.css">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/header.css">
+    <link rel="stylesheet" href="./Assets/Css/user-info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <div class="header"> </div>
+    <!--Breadcrumb-->
+    <div class="container breadcrumb">
+        <ul class="breadcrumb-list">
+            <li class="breadcrumb-item"><a href="./index.html" class="breadcrumb-link" id="prev-bc">Trang chủ</a></li>
+            <i class="a fa-solid fa-chevron-right fa-2xs"></i>
+            <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Thông tin tài khoản</a></li>
+        </ul>
+    </div>
+    <!--Page title-->
+   <div class="container page-title">
+       <p>Tài khoản của tôi</p>
+   </div>
+   <div class="container user-info">
+        <div class="user-info-left">
+            <ul class="user-left">
+                <li class="user-left__list">
+                    <div class="left-info">
+                    <img src="./Assets/Icons/user24.svg" alt="">
+                    <p>TÀI KHOẢN</p>
+                    </div>
+                    <div class="right-info">
+                        <i class="fa-solid fa-chevron-down" ></i>   
+                    </div>
+                </li>
+                <li class="user-left__option" id="option-choose">
+                    <a href="./user-info.html"class="ads-left__link">Thông tin tài khoản</a>
+                </li>
+                <li class="user-left__option">
+                    <a href="./user-order-history.html" title=""class="ads-left__link">Lịch sử mua hàng</a>
+                </li>
+                <li class="user-left__option">
+                    <a href="./user-fav.html" title=""class="ads-left__link">Sản phẩm yêu thích</a>
+                </li>
+                <li class="user-left__option">
+                    <a href="./user-voucher.html" title=""class="ads-left__link">Mã khuyến mãi</a>
+                </li>
+                <li class="user-left__option">
+                    <a href="./user-change-password.html" title=""class="ads-left__link">Đổi mật khẩu</a>
+                </li>
+                <li class="user-left__option">
+                    <a href="./index.html" title=""class="ads-left__link">Đăng xuất</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="user-info-right">
+            <div class="user-table-1">
+                <div class="table-title">
+                    Thông tin tài khoản
+                </div>
+                <div class="table-content">
+                    <div class="table-left-content">
+                        <form action="">
+                        <div class="username">
+                            <p class="text-box-title">Họ tên</p>
+                            <div class="fui-basic-input">
+                                <input type="text" id="name" class="input" value="Nguyễn Đức Mạnh"placeholder="Nhập họ và tên" autocomplete="off"  />
+                                <div class="valid" id="valid-oldpass"></div>
+                          </div>
+                        </div>
+                        <div class="phone-number">
+                            <p class="text-box-title">Số điện thoại</p>
+                            <div class="fui-basic-input">
+                                <input type="text" name="name" id="phone" class="input"  value="0813863096" onblur="checkName()"  placeholder="Nhập số điện thoại" autocomplete="off"/>
+                          </div>
+                          <div class="valid" id="valid-name"></div>
+                        </div>
+                        <div class="email">
+                            <p class="text-box-title">Email</p>
+                            <div class="fui-basic-input">
+                                <input type="email" name="name" id="email"  class="input" value="manhducng02@gmail.com" placeholder="Nhập email" autocomplete="off"/>
+                          </div>
+                        </div>
+                        
+                        <div class="gender-birth">
+                            <div class="gender-option">
+                            <p class="text-box-title">Giới tính</p>
+                            <div class="block-gender">
+                            <select name="" class="gender">
+                                <option value="Nam" selected>Nam</option>
+                                <option value="Nữ">Nữ</option>
+                                <option value="Khác">Khác</option>
+                            
+                            </select>
+                            <i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+                        </div>
+                        <div class="date-option">
+                            <p class="text-box-title">Ngày sinh</p>
+                            <div class="fui-basic-input1">
+                                <input type="date" class="input" value="2002-02-02" placeholder="Chọn ngày sinh" autocomplete="off"/>
+                          </div>
+                        </div>
+                        </div>
+                            </form>
+                            </div>
+                          
+                           
+
+                    <div class="table-right-content">
+                        <div class="center">
+                        <div class="img"><img id="output" src="./Assets/Images/user-avatar.svg" alt=""></div></div>
+                        <div class="center1">
+                            <div class="avatar-button">
+                            <label class="avatar-button-a">Chọn ảnh
+                            <input type="file" id="avatar" class="input-avatar" name="Chọn ảnh" accept="image/*" onchange="loadFile(event)"></label></div>
+                    </div></div>
+
+                    
+                </div>
+                <div class="button-center">
+               <label onclick="showSuccessToast();" for="" class="submit">Lưu thay đổi<input type="submit" name="btnSubmit" class="Submit" value="" /></label></div>
+            </div>
+            <div class="user-table-2">
+                <div class="table-title">
+                    Địa chỉ giao hàng
+                </div>
+                
+                <div class="table-2-line">
+                    <div class="username">
+                        <p class="text-box-title">Họ tên</p>
+                        <div class="fui-basic-input">
+                            <input type="text" name="name"  class="input" value="Nguyễn Đức Mạnh" placeholder="Nhập họ và tên" autocomplete="off"/>
+                      </div>
+                    </div>
+                    <div class="phone-number2">
+                        <p class="text-box-title">Số điện thoại</p>
+                        <div class="fui-basic-input">
+                            <input type="text" name="name"  class="input" value="0813863096" placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="table-2-line">
+                    <div class="city-option">
+                        <p class="text-box-title">Tỉnh/Thành phố</p>
+                        <div class="block-gender">
+                        <select name="" class="option">
+                            <option value="Nam" selected>Thành phố Hà Nội</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Khác">Khác</option>
+                        
+                        </select>
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+                    </div>
+
+                    <div class="city-option">
+                        <p class="text-box-title">Quận/Huyện</p>
+                        <div class="block-gender">
+                        <select name="" class="option">
+                            <option value="Nam" selected>Quận Hoàng Mai</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Khác">Khác</option>
+                        
+                        </select>
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+                    </div>
+
+                    <div class="city-option">
+                        <p class="text-box-title">Phường/Xã</p>
+                        <div class="block-gender">
+                        <select name="" class="option">
+                            <option value="Nam" selected>Phường Đại Kim</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Khác">Khác</option>
+                        
+                        </select>
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i></div>
+                    </div>
+                </div>
+                <div class="table-2-line">
+                    <div class="username">
+                        <p class="text-box-title">Địa chỉ nhận hàng</p>
+                        <div class="fui-basic-input2">
+                            <input type="text" name="name"  class="input" value="Số 45, ngách 20/45, phường Đại Kim, quận Hoàng Mai, thành phố Hà Nội" placeholder="Nhập địa chỉ nhận hàng" autocomplete="off"/>
+                      </div>
+                    </div>
+                   
+                </div>
+                <div class="button-center">
+                    <label for="" onclick="showSuccessToast();" class="submit">Lưu thay đổi<input type="submit" name="btnSubmit" class="Submit" value="" /></label></div>
+                
+                
+                
+            </div>
+        </div>
+
+      <!--Toast-->
+
+      <div id="toast"></div>
+   </div>
+   <!--Footer-->
+   <div class="footer"></div>
+   <script src="script.js"></script>
+   <script src="./Js/header.js"></script>
+   <script src="./Js/user-info.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+:root{
+    --primary: #FF414D;
+    --secondary: #FFEBEC;
+    --third: #D70018; 
+    --footer: #353245;
+    --black: #3A3A3A;
+    --grayD9: #D9D9D9;
+    --sale: #FF543E;
+    --rate: #FFDD55;
+    --success: #4DF791;
+    --outOfStock: #4C4C4C;
+    --grayBorder: #E6E6E6;
+    --grayTypo: #8F8F8F;
+    --blackLight: #666666;
+
+    
+}
+
+
+@font-face {
+    font-family: 'SVN-GilroyBold';
+    src: url('../Fonts/SVN-GilroyBold.woff2') format('woff2'),
+        url('../Fonts/SVN-GilroyBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'SVN-GilroyHeavy';
+    src: url('../Fonts/SVN-GilroyHeavy.woff2') format('woff2'),
+        url('../Fonts/SVN-GilroyHeavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-GilroyLight';
+    src: url('../Fonts/SVN-GilroyLight.woff2') format('woff2'),
+        url('../Fonts/SVN-GilroyLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-GilroyMedium';
+    src: url('../Fonts/SVN-GilroyMedium.woff2') format('woff2'),
+        url('../Fonts/SVN-GilroyMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../Fonts/SVN-Gilroy.woff2') format('woff2'),
+        url('../Fonts/SVN-Gilroy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-GilroySemiBold';
+    src: url('../Fonts/SVN-GilroySemiBold.woff2') format('woff2'),
+        url('../Fonts/SVN-GilroySemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,body{
+    font-family: 'SVN-Gilroy';
+    font-size: 16px;
+    color:#3A3A3A;
+    
+    
+}
+
+.container{
+    max-width: 1320px;
+    width:100%;
+    margin-inline: auto;
+    color:#3A3A3A; 
+}

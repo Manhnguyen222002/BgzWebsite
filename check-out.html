@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán | BGZONE</title>
+    <link rel="icon" href="./Assets/Images/logo-13.png">
+    <link rel="stylesheet" href="./Assets/Css/reset.css">
+    <link rel="stylesheet" href="./Assets/Css/base.css">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/header.css">
+    <link rel="stylesheet" href="./Assets/Css/check-out.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <div class="header"> </div>
+    <!--Breadcrumb-->
+    <div class="container breadcrumb">
+        <ul class="breadcrumb-list">
+            <li class="breadcrumb-item"><a href="./index.html" class="breadcrumb-link" id="prev-bc">Trang chủ</a></li>
+            <i class="a fa-solid fa-chevron-right fa-2xs"></i>
+            <li class="breadcrumb-item"><a href="./cart.html" class="breadcrumb-link" id="prev-bc1">Giỏ hàng</a></li>
+            <i class="a fa-solid fa-chevron-right fa-2xs"></i>
+            <li class="breadcrumb-item"><a href="" class="breadcrumb-link">Thanh toán</a></li>
+        </ul>
+    </div>
+    <!--Page title-->
+    <div class="container page-title">
+        <p>Thanh toán</p>
+    </div>
+
+    <div class="container check-out">
+        <div class="left-block">
+            <div class="block-title">THÔNG TIN GIAO HÀNG</div>
+            <div class="block-content">
+                <div class="block-line" id="option-mobile1">
+                <div class="checked-radio radio"><input type="radio" class="radio-1" name="option" checked><label>Sử dụng thông tin tài khoản</label></div>
+                <div class="radio"><input type="radio" class="radio-2" name="option"  ><label>Nhập thông tin giao hàng mới</label></div>
+                </div>
+                <div class="block-line">
+                    <div class="block-input">
+                        <p class="text-box-title">Họ và tên người nhận hàng</p>
+                        <div class="fui-basic-input">
+                            <input type="text" name="name" class="input"  value="Nguyễn Đức Mạnh"   placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                      <div class="valid" id="valid-name"></div>
+                    </div>
+                    <div class="block-input">
+                        <p class="text-box-title">Số điện thoại</p>
+                        <div class="fui-basic-input">
+                            <input type="text" name="phone"  class="input"  value="0813863096"  placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                      <div class="valid" id="valid-phone"></div>
+                    </div>
+                </div>
+                <div class="block-line" id="option-mobile2">
+                    
+                        <div class="city-option">
+                            <p class="text-box-title">Tỉnh/Thành phố</p>
+                            <div class="block-gender">
+                            <select name="" class="option">
+                                <option value="Nam" selected>Thành phố Hà Nội</option>
+                                <option value="Nữ">Nữ</option>
+                                <option value="Khác">Khác</option>
+                            
+                            </select>
+                            <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+                        </div>
+    
+                        <div class="city-option">
+                            <p class="text-box-title">Quận/Huyện</p>
+                            <div class="block-gender">
+                            <select name="" class="option">
+                                <option value="Nam" selected>Quận Hoàng Mai</option>
+                                <option value="Nữ">Nữ</option>
+                                <option value="Khác">Khác</option>
+                            
+                            </select>
+                            <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+                        </div>
+    
+                        <div class="city-option">
+                            <p class="text-box-title">Phường/Xã</p>
+                            <div class="block-gender">
+                            <select name="" class="option">
+                                <option value="Nam" selected>Phường Đại Kim</option>
+                                <option value="Nữ">Nữ</option>
+                                <option value="Khác">Khác</option>
+                                
+                            </select>
+                            <i class="fa-solid fa-chevron-down fa-xs"></i></div>
+                        </div>
+                </div>
+                <div class="block-line1">
+                    <div class="block-input">
+                        <p class="text-box-title">Địa chỉ nhận hàng</p>
+                        <div class="fui-basic-input2">
+                            <input type="text" name="name" class="input"  value="Số 45, ngách 20/45, phường Đại Kim, quận Hoàng Mai, thành phố Hà Nội"  placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                      <div class="valid" ></div>
+                    </div>
+                    
+                </div>
+                <div class="block-border">
+                </div>
+                <div class="block-title1">PHƯƠNG THỨC GIAO HÀNG</div>
+                <div class="block-line" id="option-mobile3">
+                    <div class="radio2">
+                        <div class="radio33"><input type="radio" class="radio-3" name="option1" checked><label>Giao hàng tiêu chuẩn: 20.000 đ <p>Ngày giao hàng: Thứ 5 - 04/04</p></label>
+                        </div>
+                        <div  class="radio44"><input type="radio" class="radio-4" name="option1"  ><label>Giao hàng nhanh: 30.000 đ<p>Ngày giao hàng: Thứ 2 - 01/04</p></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-border">
+                </div>
+                <div class="block-title1">PHƯƠNG THỨC THANH TOÁN</div>
+                <div class="block-line">
+                    <div class="radio3">
+                        <div class="filter-body">
+                            <div class="radio-item">
+                                <input type="radio"  name="color" value="red" checked>
+                                <label>Thanh toán khi nhận hàng</label><br></div>
+                            <div class="radio-item">
+                                <input type="radio" name="color" value="green">
+                                <label >VNPAY</label><br></div>
+                            <div class="radio-item">
+                                <input type="radio"  name="color" value="blue">
+                                <label >Ví ZaloPay</label><br></div>
+                            <div class="radio-item">
+                                <input type="radio" name="color" value="yellow">
+                                <label>Ví Momo</label><br></div>
+                            <div class="radio-item">
+                                <input type="radio"  name="color" value="orange">
+                                <label>Thẻ ATM/Internet Banking</label><br></div>
+                            <div class="radio-item">
+                                <input type="radio"  name="color" value="purple">
+                                <label>Thẻ Visa/Master Card</label><br></div>
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="block-border">
+                </div>
+                <div class="voucher-desktop">
+                    <div class="block-title1">KHUYẾN MÃI</div>
+                    <div class="block-line">
+                    <div class="fui-basic-input3">
+                        <input type="text" name="name" class="input"  placeholder="Nhập mã khuyến mãi"   placeholder="Nhập số điện thoại" autocomplete="off"/>
+                        <button class="btn-voucher">Áp dụng</button>
+                        <a class="btn-more">Chọn mã khuyến mãi</a>
+                  <div class="valid" ></div>    
+                  </div>
+                 
+                    </div>
+                </div>
+                <div class="voucher-mobile">
+                    <div class="voucher-header">
+                        <div class="block-title1">KHUYẾN MÃI</div>
+                        <i class="fa-solid fa-chevron-up" ></i>   
+                    </div>
+                    
+                    <div class="block-line">
+                    <div class="fui-basic-input3">
+                        <input type="text" name="name" class="input"  placeholder="Nhập mã khuyến mãi"   placeholder="Nhập số điện thoại" autocomplete="off"/>
+                        
+                  <div class="valid" ></div>    
+                  </div>
+                  <div class="mobile-voucher-line">
+                  <a class="btn-more1">Chọn mã khuyến mãi</a>
+                  <button class="btn-voucher">Áp dụng</button>
+                </div>
+                    </div>
+                </div>
+                <div class="block-border">
+                </div>
+                <div class="more-info-desktop">
+                    <div class="block-title1" id="mobile-title">THÔNG TIN KHÁC</div>
+                    <div class="block-line">
+                    <div class="block-input1">
+                        <p class="text-box-title">Ghi chú đơn hàng</p>
+                        <div class="fui-basic-input4">
+                            <input type="textarea" name="name"  class="input"  placeholder="Nhập ghi chú cho đơn hàng"  placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                      <div class="valid" ></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="more-info-mobile">
+                    <div class="more-info-header">
+                        <div class="block-title1">THÔNG TIN KHÁC</div>
+                        <i class="fa-solid fa-chevron-down" ></i>   
+                    </div>
+                    <div class="block-line" id="mobile-more-info-line">
+                    <div class="block-input1">
+                        <p class="text-box-title">Ghi chú đơn hàng</p>
+                        <div class="fui-basic-input4">
+                            <input type="textarea" name="name"  class="input"  placeholder="Nhập ghi chú cho đơn hàng"  placeholder="Nhập số điện thoại" autocomplete="off"/>
+                      </div>
+                      <div class="valid" ></div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div class="separator-line">
+        </div>
+        <div class="block-line-mobile"></div>
+        <div class="block-border"></div>
+        <div class="right-block">
+            <div class="right-top-block">
+            <div class="filter-header">
+                <div class="block-title">SẢN PHẨM TRONG ĐƠN</div>
+                <div class="filter-chevron">
+                    <i class="fa-solid fa-chevron-up" ></i>   
+                </div>
+            </div>
+            <div class="product-block-dropdown">
+            <div class="product-block">
+                <div class="img-block"><img src="./Assets/Images/checkout1.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name-block">Exploding Kittens - Mèo nổ cơ bản </div>
+                    <div class="quantity-price-block">
+                        <div class="quantity">x1</div>
+                        <div class="price0">126.000 đ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-block">
+                <div class="img-block"><img src="./Assets/Images/checkout2.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name-block">Ma Sói Character Việt Hóa </div>
+                    <div class="quantity-price-block">
+                        <div class="quantity">x1</div>
+                        <div class="price0">99.000 đ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-block">
+                <div class="img-block"><img src="./Assets/Images/checkout3.svg" alt=""></div>
+                <div class="info-block">
+                    <div class="name-block">Monopoly - Cờ Tỷ Phú </div>
+                    <div class="quantity-price-block">
+                        <div class="quantity">x1</div>
+                        <div class="price0">240.000 đ</div>
+                    </div>
+                </div>
+            </div>
+            </div></div>
+            <div class="block-line2"></div>
+            <div class="block-border-2"></div>
+            
+            <div class="right-bottom-block">
+                <div class="block-title">TÓM TẮT ĐƠN HÀNG</div>
+                <div class="block-sum">Thành tiền <p class="semibold">465.000 đ</p></div>
+                <div class="block-sum">Phí vận chuyển <p class="semibold">20.000 đ</p></div>
+                <div class="block-sum">Giảm giá <p class="semibold">-50.000 đ</p></div>
+                <div class="block-line3"></div>
+                <div class="block-border-mobile"></div>
+                <div class="block-sum2">Tổng tiền <p class="sum">435.000 đ</p></div>
+                <div class="btn-check-out1"><a href="./success-check-out.html" class="btn-check-out">Xác nhận thanh toán</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal hide">
+        <div class="modal-inner">
+            <div class="modal-header">
+                <p class="sale-header">Mã khuyến mãi</p>
+                <i class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="modal-body">
+                <div class="voucher-card">
+                    <div class="voucher-card-left">
+                        
+                        <img src="./Assets/Icons/iconamoon_discount-fill.svg" alt="">
+                    </div>
+                    <div class="voucher-card-right">
+                        <ul>
+                            <li class="voucher-title">Ưu đãi 10% cho khách hàng mới</li>
+                            <li class="voucher-info">Áp dụng cho khách hàng lần đầu đăng nhập website</li>
+                            <li ><div class="line">
+                                <p>HSD: 31/04/2024</p>
+                                <button class="btn-more">Xem chi tiết</button>
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="voucher-card">
+                    <div class="voucher-card-left">
+                        
+                        <img src="./Assets/Icons/iconamoon_discount-fill.svg" alt="">
+                    </div>
+                    <div class="voucher-card-right">
+                        <ul>
+                            <li class="voucher-title">Giảm 50K</li>
+                            <li class="voucher-info">Áp dụng cho đơn hàng từ 500K</li>
+                            <li ><div class="line">
+                                <p>HSD: 31/04/2024</p>
+                                <button class="btn-more">Xem chi tiết</button>
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="voucher-card">
+                    <div class="voucher-card-left">
+                        
+                        <img src="./Assets/Icons/freeship.svg" alt="">
+                    </div>
+                    <div class="voucher-card-right">
+                        <ul>
+                            <li class="voucher-title">Freeship 100% tối đa 25K</li>
+                            <li class="voucher-info">Áp dụng cho đơn hàng từ 300K</li>
+                            <li ><div class="line">
+                                <p>HSD: 31/04/2024</p>
+                                <button class="btn-more">Xem chi tiết</button>
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+                
+    
+                
+            </div>
+            
+            <div class="modal-footer">
+                
+                
+            </div></div>
+            
+       </div>
+    
+       <div class="modal hide">
+        <div class="modal-inner1 hide" >
+            <div class="modal-header1">
+                <p class="sale-header">Thông tin chi tiết</p>
+                <i class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="modal-body1">
+                <p class="sale-title">
+                    Mã khuyến mãi:
+                </p>
+                <p class="code-text">BGZ30359456</p><br>
+                <p class="sale-title">
+                    Hạn sử dụng:
+                </p>
+                <p>Từ ngày 10/03/2024 đến 31/03/2024</p><br>
+                <p class="sale-title">
+                    Thông tin khuyến mãi:
+                </p>
+                <p>Giảm 10% tổng giá trị đơn hàng cho người dùng lần đầu tạo tài khoản và đăng nhập trên website BGZONE</p><br>
+                <p class="sale-title">
+                    Điều kiện áp dụng:
+                </p>
+                <p><li>Mỗi mã khuyến mãi chỉ được áp dụng 01 lần, áp dụng 01 mã khuyến mãi, hóa đơn.</li>
+                    <li>Mỗi tài khoản chỉ có duy nhất một mã khuyến mãi dành cho lần đầu đăng nhập website.</li>
+                        <li>Mã khuyến mãi áp dụng cho cả hình thức thanh toán tại cửa hàng và thanh toán trên website.</li></p><br>
+                <p class="sale-title">
+                    Hướng dẫn sử dụng:
+                </p>
+                <p><li>Đối với hình thức thanh toán tại cửa hàng, quý khách vui lòng đưa thiết bị điện tử đã đăng nhập vào website BGZONE cho nhân viên trước khi thanh toán. KHÔNG áp dụng cho ảnh chụp màn hình</li>
+                <li>Đối với hình thức thanh toán trên website BGZONE, tại phần thanh toán quý khách vui lòng chọn xem tất cả để sử dụng ưu đãi, hoặc từ tài khoản -> mã khuyến mãi để copy mã khuyến mãi đang có.</li></p>
+            </div>
+            
+            <div class="modal-footer1">
+                <button class="btn-copy">Copy mã</button>
+                
+            </div></div>
+       </div>
+    <!--Footer-->
+    <div class="footer"></div>
+    <script src="script.js"></script>
+    <script src="./Js/header.js"></script>
+    <script src="./Js/check-out.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "image": "./Assets/Images/cart4.svg",
+        "quantity":1,
+        "name": "Exploding Kittens - Mèo nổ cơ bản",
+        
+        "price":126,
+        "saleprice":"159.000 đ"
+    },{
+        "id":2,
+        "image": "./Assets/Images/cart4.svg",
+        "quantity":1,
+        "name": "Exploding Kittens - Mèo nổ cơ bản",
+        
+        "price":126,
+        "saleprice":"159.000 đ"
+    },{
+        "id":3,
+        "image": "./Assets/Images/cart4.svg",
+        "quantity":1,
+        "name": "Exploding Kittens - Mèo nổ cơ bản",
+        
+        "price":126,
+        "saleprice":"159.000 đ"
+    },{
+        "id":4,
+        "image": "./Assets/Images/cart4.svg",
+        "quantity":1,
+        "name": "Exploding Kittens - Mèo nổ cơ bản",
+        
+        "price":126,
+        "saleprice":"159.000 đ"
+    }
+]

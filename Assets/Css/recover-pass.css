@@ -1,0 +1,278 @@
+.form{
+    margin-top: 72px;
+    margin-bottom:8px;
+    
+}
+
+.title{
+    font-family: 'SVN-GilroyBold';
+    font-size:32px ;
+    display: flex;
+    justify-content: center;
+    margin-bottom:8px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.line2{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.line4{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    width:424px;
+}
+
+.fui-basic-input .input {
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid var(--grayD9);
+    transition: linear 0.2s;
+    width:424px;
+    height:48px;
+    color: var(--black);
+  }
+  .fui-basic-input .input::-webkit-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-basic-input .input::-moz-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-basic-input .input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  .fui-input-password {
+    position: relative;
+    display: inline-block;
+    width: 424px;
+    height:48px;
+  }
+  .fui-input-password .input {
+    padding: 14px 0px 14px 16px;
+    width: 424px;
+    height:48px;
+    border-radius: 6px;
+    border: 1px solid var(--grayD9);
+    transition: linear 0.2s;
+  }
+  .fui-input-password .input::-webkit-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-input-password .input::-moz-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-input-password .input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
+      0 2px 2px -2px rgba(0, 0, 0, 0.1);
+  }
+  .fui-input-password .icon {
+    color: #9ca3af;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+  }
+  .fui-input-password .icon svg {
+    height: 18px;
+  }
+  .fui-input-password .eye-on.hidden {
+    display: none;
+  }
+  .fui-input-password .eye-off {
+    display: none;
+  }
+  .fui-input-password .eye-off.active {
+    display: block;
+  }
+
+
+.forget-pass{
+    text-decoration: underline;
+    font-family: 'SVN-GilroySemiBold';
+    color:var(--black);
+}
+
+.submit{
+    margin-top:8px;
+    font-family: 'SVN-GilroySemiBold';
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:424px;
+    height:48px;
+    border: 0.0001px solid var(--primary);
+    background-color: var(--primary);
+    color:white;
+    border-radius: 4px;
+}
+
+.border-line{
+    border-bottom: 1px solid var(--grayD9);
+    width:424px;
+   
+   
+}
+
+.semibold{
+    font-family:'SVN-GilroySemiBold'
+}
+.medium{
+    font-family:'SVN-GilroyMedium'
+}
+
+.line1{
+    width: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2 a{
+    padding-left: 4px;
+    color:var(--black);
+    text-decoration: underline;
+}
+
+.line3{
+    display: flex;
+    justify-content: center;
+    margin-bottom:8px;
+    
+}
+.line2 a:hover{
+    
+    color:var(--primary);
+    
+}
+
+.fui-input-password2 {
+    position: relative;
+    display: inline-block;
+    width: 424px;
+    height:48px;
+  }
+  .fui-input-password2 .input {
+    width: 424px;
+    height:48px;
+    padding: 14px 0 14px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--grayD9);
+    transition: linear 0.2s;
+  }
+  .fui-input-password2 .input::-webkit-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-input-password2 .input::-moz-input-placeholder {
+    color: #9ca3af;
+  }
+  .fui-input-password2 .input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
+      0 2px 2px -2px rgba(0, 0, 0, 0.1);
+  }
+  .fui-input-password2 .icon {
+    color: #9ca3af;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+  }
+  .fui-input-password2 .icon svg {
+    height: 18px;
+  }
+
+  .fui-input-password2 .eye-on2.hidden {
+    display: none;
+  }
+  .fui-input-password2 .eye-off2 {
+    display: none;
+  }
+  .fui-input-password2 .eye-off2.active {
+    display: block;
+  }
+
+.send-code{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-send{
+    position: absolute;
+    font-family: 'SVN-GilroySemibold';
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    text-decoration: underline;
+}
+
+.back{
+    margin-top:8px;
+    font-family: 'SVN-GilroySemiBold';
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:424px;
+    height:48px;
+    border: 1px solid var(--primary);
+    background-color: white;
+    color:var(--primary);
+    border-radius: 4px;
+}
+
+@media (max-width: 430px) {
+  .fui-input-password {
+  
+    width: 390px;
+    height:48px;
+  }
+  .fui-input-password .input {
+    
+    width: 390px;
+    height:48px;
+    
+  }
+
+  .fui-input-password2 {
+  
+    width: 390px;
+    height:48px;
+  }
+  .fui-input-password2 .input {
+    
+    width: 390px;
+    height:48px;
+    
+  }
+  .fui-basic-input .input {
+    
+    width:390px;
+    height:48px;
+    
+  }
+  .line3{
+    text-align: center;
+    width:390px;
+  }
+  
+}

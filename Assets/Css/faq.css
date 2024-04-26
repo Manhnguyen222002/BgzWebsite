@@ -1,0 +1,58 @@
+.faq{
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.faq-title{
+    font-family:'SVN-GilroyBold';
+    font-size:24px;
+    padding-top: 24px;
+    padding-bottom:16px;
+    text-align: justify
+}
+
+.faq-answer{
+    font-family:'SVN-GilroyMedium';
+    font-size:16px;
+    padding-top:8px;
+    text-align: justify
+
+}
+.faq li{
+    font-family:'SVN-GilroyMedium';
+    font-size:16px;
+    padding-top: 4px;
+}
+
+.faq-left{
+    width:606px;
+    height:fit-content;
+}
+
+.faq-right{
+    width:606px;
+    height:fit-content;
+}
+
+@media (max-width: 430px) {
+    
+    
+    .container{
+        max-width:390px;
+        width:100%;
+        margin-inline: auto;
+    
+    
+}
+    .faq{
+        flex-direction: column;
+    }
+    .faq-left, .faq-right{
+        max-width:390px;
+    }
+    
+}

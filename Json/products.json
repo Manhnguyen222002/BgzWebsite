@@ -1,0 +1,203 @@
+[
+    {
+        "id":1,
+        "image": "./Assets/Product/mèo nổ.png",
+        "sale":"-20%",
+        "name": "Exploding Kittens - Mèo nổ cơ bản",
+        "age": 7,
+        "player": "2 - 5",
+        "time": "15 - 20",
+        "price":126,
+        "saleprice":"159.000 đ"
+    },
+    {
+        "id":2,
+        "image": "./Assets/Product/catinthebox.svg",
+        "sale":"",
+        "name": "Cat in the Box - Deluxe Edition (US)",
+        "age": 13,
+        "player": "2 - 5",
+        "time": "30 - 40",
+        "price":259,
+        "saleprice":""
+    },
+    {
+        "id":3,
+        "image": "./Assets/Product/marvelchampion.svg",
+        "sale":"",
+        "name": "Marvel Champions (US)",
+        "age": 14,
+        "player": "1 - 4",
+        "time": "45 - 90",
+        "price":309,
+        "saleprice":""
+    },
+    {
+        "id":4,
+        "image": "./Assets/Product/arkhamhorror.svg",
+        "sale":"",
+        "name": "Arkham Horror (US)",
+        "age": 13,
+        "player": "1 - 2",
+        "time": "20 - 30",
+        "price":199,
+        "saleprice":""
+    },
+    {
+        "id":5,
+        "image": "./Assets/Product/cthulhu.svg",
+        "sale":"",
+        "name": "Cthulhu: Death May Die Việt Hóa",
+        "age": 14,
+        "player": "1 - 5",
+        "time": "90 - 120",
+        "price":259,
+        "saleprice":""
+    },
+    {
+        "id":6,
+        "image": "./Assets/Product/masoiviethoa.png",
+        "sale":"",
+        "name": "Ma Sói Charater Việt Hóa",
+        "age": 10,
+        "player": "3 - 10",
+        "time": "30 - 45",
+        "price":99,
+        "saleprice":""
+    },
+    {
+        "id":7,
+        "image": "./Assets/Product/puzzlemato.svg",
+        "sale":"-50%",
+        "name": "Xếp hình/Puzzle Mato - Chủ đề: Khu chợ nhộn nhịp",
+        "age": 2,
+        "player": "1 - 2",
+        "time": "10 - 20",
+        "price":50,
+        "saleprice":"100.000 đ"
+    },
+    {
+        "id":8,
+        "image": "./Assets/Product/pandemiclegacy.svg",
+        "sale":"",
+        "name": "Pandemic Legacy: Season 0 (US)",
+        "age": 14,
+        "player": "2 - 5",
+        "time": "45 - 60",
+        "price":400,
+        "saleprice":""
+    },
+    {
+        "id":9,
+        "image": "./Assets/Product/hanoiopoly.svg",
+        "sale":"-20%",
+        "name": "Hanoiopoly - Cờ Tỷ Phú Hà Nội",
+        "age": 10,
+        "player": "3 - 5",
+        "time": "30 - 45",
+        "price":650,
+        "saleprice":"850.000 đ"
+    },
+    {
+        "id":10,
+        "image": "./Assets/Product/vuacaphe.svg",
+        "sale":"-20%",
+        "name": "Vua Cà Phê",
+        "age": 7,
+        "player": "3 - 5",
+        "time": "15 - 20",
+        "price":159,
+        "saleprice":"199.000 đ"
+    },
+    {
+        "id":11,
+        "image": "./Assets/Product/lotus.svg",
+        "sale":"-30%",
+        "name": "Lotus (US)",
+        "age": 8,
+        "player": "2 - 4",
+        "time": "30",
+        "price":600,
+        "saleprice":"860.000 đ"
+    },
+    {
+        "id":12,
+        "image": "./Assets/Product/ohmyorchids.svg",
+        "sale":"",
+        "name": "Oh my, Orchids! (US)",
+        "age": 8,
+        "player": "2 - 5",
+        "time": "10 - 20",
+        "price":179,
+        "saleprice":""
+    },
+    {
+        "id":13,
+        "image": "./Assets/Product/mieooo.svg",
+        "sale":"",
+        "name": "Miéooo - Thủ Lĩnh Của Loài Mèo",
+        "age": 13,
+        "player": "3 - 6",
+        "time": "10 - 30",
+        "price":179,
+        "saleprice":""
+    },
+    {
+        "id":14,
+        "image": "./Assets/Product/thotinhtao.svg",
+        "sale":"-15%",
+        "name": "Thỏ Tỉnh Táo",
+        "age": 14,
+        "player": "2 - 20",
+        "time": "30 - 60",
+        "price":135,
+        "saleprice":"159.000 đ"
+    },
+    {
+        "id":15,
+        "image": "./Assets/Product/newyorkslice.svg",
+        "sale":"",
+        "name": "New York Slice (US)",
+        "age": 14,
+        "player": "2 - 6",
+        "time": "30 - 40",
+        "price":825,
+        "saleprice":""
+    },
+    {
+        "id":16,
+        "image": "./Assets/Product/caucasacmau.svg",
+        "sale":"",
+        "name": "Câu Cá Sắc Màu",
+        "age": 8,
+        "player": "1 - 4",
+        "time": "20 - 30",
+        "price":285,
+        "saleprice":""
+    },
+    {
+        "id":17,
+        "image": "./Assets/Product/All you can eat.png",
+        "sale":"-50%",
+        "name": "All You Can Eat (US)",
+        "age": 10,
+        "player": "3 - 5",
+        "time": "30 - 45",
+        "price":60,
+        "saleprice":"199.000 đ"
+    },
+    {
+        "id":18,
+        "image": "./Assets/Product/touchit.svg",
+        "sale":"",
+        "name": "Touch It - Chạm Thấy Rộn Ràng",
+        "age": 6,
+        "player": "2 - 4",
+        "time": "15 - 30",
+        "price":179,
+        "saleprice":"199.000đ"
+    }
+    
+    
+    
+]

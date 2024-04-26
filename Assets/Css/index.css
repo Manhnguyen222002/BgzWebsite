@@ -1,0 +1,157 @@
+.ads-mobile,.btn-mobile-add{
+    display: none;
+}
+#nav-index{
+    font-family: 'SVN-GilroyBold';
+    color:var(--primary);
+}
+@media (max-width: 430px) {
+    .slider{
+        width:390px;
+        height:224px;
+        border-radius: 4px;
+    }
+    .slider .list img{
+        border-radius: 4px;
+    }
+    .slider .buttons button {
+        width:30px;
+        height:30px;
+    }
+    .ads{
+        flex-direction: column;
+    }
+    .mini-ads-right{
+        margin-top:8px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap:0;
+    }
+    .mini-ads-right img{
+        width:191px;
+        height:120px;
+        
+    }
+    .ads-desktop{
+        display: none;
+    }
+    .ads-mobile{
+        display: flex;
+    }
+    .mini-category-line{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width:390px;
+        gap:15px;
+    }
+    .mini-category{
+        width:120px;
+        height:120px;
+    }
+    .mini-category-name{
+        font-size:14px;
+        line-height: 1.2;
+    }
+    .sale{
+        margin-top:32px;
+    }
+    .ads-horizontal{
+        margin-top:32px;
+    }
+    .feature{
+        margin-top:32px;
+    }
+    .feature-top p{
+        font-size:24px;
+    }
+    .feature-bottom-line1{
+        flex-wrap: wrap;
+        width:390px;
+        gap:8px;
+    }
+    .feature-bottom-line2{
+        flex-wrap: wrap;
+        width:390px;
+        gap:8px;
+        margin-top:8px;
+    }
+    .feature-bottom{
+        margin-top:24px;
+    }
+    .category{
+        margin-top: 32px;
+    }
+   
+    .category-top p{
+        font-size:24px;
+    }
+    .category-mobile{
+        margin-top:8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:8px;
+        
+    }
+    .category-mobile img{
+        cursor: pointer;
+    }
+    .mission{
+        margin-top:32px;
+    }
+    .article{
+        margin-top:32px;
+    }
+    .article-title p{
+        font-size:24px;
+    }
+    .article-card-list{
+        display: flex;
+        width:390px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: left;
+        align-items:flex-start;
+        gap:8px;
+    }
+    .article-date-author,.article-detail{
+        display: none;
+    }
+    .article-card{
+        display: flex;
+        width:390px;
+        height:128px;
+        align-items:center;
+
+    }
+    .article-img{
+        width:140px;
+        height:128px;
+    }
+    .article-name{
+        font-size:16px;
+    }
+    .article-info{
+        margin-top:0;
+        width:222px;
+        height:72px;
+    }
+    .btn-mobile-add{
+        display: flex;
+    }
+    .button-more{
+        width:191px;
+        height:48px;
+        font-size:18px;
+    }
+    .item{
+        width:390px;
+        height:220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:4px ;
+    }
+
+}
