@@ -45,7 +45,7 @@
     color: #9ca3af;
   }
   .fui-basic-input .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -71,7 +71,7 @@
     color: #9ca3af;
   }
   .fui-input-password .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 2px -2px rgba(0, 0, 0, 0.1);
   }
@@ -81,6 +81,7 @@
     top: 50%;
     transform: translateY(-50%);
     right: 15px;
+    top:48px;
     cursor: pointer;
   }
   .fui-input-password .icon svg {
@@ -104,9 +105,9 @@
 }
 
 .submit{
-    margin-top:8px;
+    margin-top:24px;
     font-family: 'SVN-GilroySemiBold';
-    font-size:20px;
+    font-size:16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +156,7 @@
     display: inline-block;
     width: 424px;
     height:48px;
+    margin-top: 8px;
   }
   .fui-input-password2 .input {
     width: 424px;
@@ -171,7 +173,7 @@
     color: #9ca3af;
   }
   .fui-input-password2 .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 2px -2px rgba(0, 0, 0, 0.1);
   }
@@ -181,6 +183,7 @@
     top: 50%;
     transform: translateY(-50%);
     right: 15px;
+    top:48px;
     cursor: pointer;
   }
   .fui-input-password2 .icon svg {

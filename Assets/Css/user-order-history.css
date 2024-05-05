@@ -10,7 +10,7 @@
     padding-bottom: 16px;
     border: 1px solid var(--grayD9);
     border-radius: 4px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15), 0 1px 2px -1px rgba(0, 0, 0, 0.01);
+    /* box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15), 0 1px 2px -1px rgba(0, 0, 0, 0.01); */
 }
 
 .table-title{

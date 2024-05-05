@@ -114,7 +114,7 @@
     color: #9ca3af;
   }
   .fui-basic-input .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -181,7 +181,7 @@
 
 .submit{
     font-family: 'SVN-GilroySemiBold';
-    font-size:20px;
+    font-size:16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,25 +237,25 @@
   }
 
   .fui-basic-input1 .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
 
   .fui-basic-input2 .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
 
   .gender:focus{
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
 
   .option:focus{
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -438,7 +438,7 @@ form{
 }
 .submit {
   font-family: 'SVN-GilroySemiBold';
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;

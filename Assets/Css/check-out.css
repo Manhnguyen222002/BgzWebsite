@@ -78,7 +78,7 @@
     color: #9ca3af;
   }
   .fui-basic-input .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -106,7 +106,7 @@
   }
 
   .option:focus{
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -134,7 +134,7 @@
     color: #9ca3af;
   }
   .fui-basic-input2 .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -228,7 +228,7 @@
     color: #9ca3af;
   }
   .fui-basic-input3 .input:focus {
-    border-color: var(--primary);
+    border-color: var(--blue);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
@@ -372,7 +372,7 @@
 }
 
 .btn-check-out1{
-    margin-top: 16px;
+    margin-top: 24px;
     width:424px;
     height:48px;
     background-color: var(--primary);

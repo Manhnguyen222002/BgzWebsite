@@ -154,4 +154,8 @@
         border-radius:4px ;
     }
 
+    .mission{
+        display: none;
+    }
+
 }

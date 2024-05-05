@@ -167,7 +167,7 @@
 .btn-cart1{
     margin-top: 16px;
     width:424px;
-    height:56px;
+    height:48px;
     background-color: var(--primary);
     color:white;
     font-family: 'SVN-GilroySemiBold';
@@ -180,7 +180,7 @@
 .btn-cart11{
    
     width:424px;
-    height:56px;
+    height:48px;
     background-color: var(--primary);
     color:white;
     font-family: 'SVN-GilroySemiBold';
@@ -193,7 +193,7 @@
 .btn-cart2{
     
     width:424px;
-    height:56px;
+    height:48px;
     border: 1px solid var(--primary);
     color:var(--primary);
     font-family: 'SVN-GilroySemiBold';
@@ -206,7 +206,7 @@
 .btn-cart22{
    
     width:424px;
-    height:56px;
+    height:48px;
     border: 1px solid var(--primary);
     color:var(--primary);
     font-family: 'SVN-GilroySemiBold';
